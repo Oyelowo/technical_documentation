@@ -58,8 +58,9 @@ body{
         border: yellow 1px solid;
         z-index: 3;
         color: white;
-        background: black;
+        background: #000000;
         width: 100vw;
+        display: block;
     }
 
     #navbar{
@@ -88,11 +89,13 @@ body{
     }
 
     #cancel-nav{
+        display: inline;;
         position: absolute;
         border: red solid 1px;
         top: 0;
         right: 0;
         font-size: 2rem;
+        z-index: 34;
     }
 
     #main-doc{
