@@ -36,22 +36,24 @@ body{
 }
 
 .nav-link:nth-child(even){
-    background: #ddd;
+    background: #eaeaea;
 }
 
 .nav-link:hover{
-    background: #111;
+    background: #999;
     color: #fff;
 }
 
 code{
     display: block;
-    padding: 1rem 2rem;
-    margin: 1rem 3rem;
+    padding: 1rem 0rem;
+    margin: 0.5rem;
     border-radius: 0.6rem;
     white-space: pre;
     background: #eee;
 }
+
+
 
 #slide-bar, #close-nav{
     display: none;
@@ -61,7 +63,7 @@ code{
     font-size: 2rem;
     font-variant: small-caps;
     font-weight: bold;
-    background: #111;
+    background: #444444;
     color: #eaeaea
 }
 
@@ -77,6 +79,15 @@ code{
 
 h1{
     text-align: center;
+}
+
+.main-section header{
+    text-align: center;
+    padding: 1rem 0; 
+}
+
+#navbar a{
+    font-size: 1.1rem;
 }
 
 /* mobile version */
@@ -154,7 +165,13 @@ h1{
         margin-left: -20vw;
         margin-top: 2.4rem;
         overflow-x: hidden;
-        
+    }
+    
+    .main-section h1, .main-section header{
+        font-size: 90%;
     }
 
+    code{
+    font-size: 85%;
+    }
 }
