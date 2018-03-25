@@ -8,7 +8,7 @@ body{
 }
 
 #navbar header{
-    font-size: 3rem;
+    font-size: 220%;
     word-wrap: break-word;
 }
 
@@ -17,8 +17,10 @@ body{
     flex-direction: column;
     border: 1px red solid;
     position: fixed;
-    height: 100vh;
+    height: 100%;
+    min-height: 80vh;
     max-width: 20vw;
+    font-size: 60%
 }
 
 #navbar > a{
@@ -27,6 +29,8 @@ body{
     padding: 1rem;
     border: 1px black solid;
     word-wrap: break-word;
+    flex-basis: auto;
+    flex-grow: inherit;
 }
 
 #main-doc header{
