@@ -86,11 +86,11 @@ body{
         color: #eaeaea;
     }
             
-    #cancel-nav{
+    #close-nav{
         display: inline;;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 1rem;
         font-size: 2rem;
         z-index: 34;
     }
