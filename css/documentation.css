@@ -45,8 +45,12 @@ body{
 }
 
 code{
-    background: #eeeeee;
-    margin-left: 4rem;
+    display: block;
+    padding: 1rem 2rem;
+    margin: 1rem 3rem;
+    border-radius: 0.6rem;
+    white-space: pre;
+    background: #eee
 }
 
 #slide-bar, #close-nav{
@@ -64,6 +68,11 @@ code{
 #main-doc{
     padding-left: 20vw;
     word-wrap: break-word;
+}
+
+#main-doc p,li{
+    text-indent: 2rem;
+    padding: 0.5rem;
 }
 
 h1{
