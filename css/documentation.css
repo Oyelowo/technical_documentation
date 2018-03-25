@@ -53,6 +53,9 @@ code{
     background: #eee;
 }
 
+#main-doc code{
+    text-align: left;
+}
 
 
 #slide-bar, #close-nav{
