@@ -64,7 +64,8 @@
                 that it is one of the most used in the world, even by big companies like google. In short, it is simple and
                 very powerful!</p>
             <p> A typical python code looks as simple as below:</p>
-            <code>if 1 < 2:<br>&nbsp;&nbsp;&nbsp;print("1 is less than2")<br>else:<br>&nbsp;&nbsp;&nbsp;print("1 is not greater than 2")
+            <code>
+                if 1 &lt; 2: print("1 is less than 2") else: print("1 is not greater than 2")
             </code>
             <p>You see? It is as simple as what you know. It gets more detailed but not too complicated.</p>
             <p>Thigns you can do in python include:</p>
@@ -77,17 +78,105 @@
         </section>
 
         <section id="part_2" class="main-section">
-            <header>part 2</header>
-            <p></p>
-            <code></code>
-            <p></p>
-            <li></li>
-            <li></li>
+            <header>Python as a Calculator</header>
+            <p>Python is also a calculator and can be used to do simple and extremely complex calculations. This is very useful
+                to do our complex task to building the biggest intelligent machines in the world. It can also help in building
+                games too.
+            </p>
+            <ul>Arithmetic Operations include:
+                <li>Addition(+)</li>
+                <li>Subtraction(-)</li>
+                <li>Division(/)</li>
+                <li>Multiplication(*)</li>
+                <li>Modulo or Remainder(//)</li>
+            </ul>
         </section>
 
         <section id="part_3" class="main-section">
-            <header>part 3</header>
-            <p></p>
+            <header>Numbers</header>
+            <p> The python interpreter is just like the calculators we use. You can give it 
+                some instructions, and it gives the result.
+                It also follows similar operations we use in our normal life.</p> 
+                In python, we have: 
+                <li>integer</li>
+                <li>float</li>
+
+                <p>Integer are basically whole numbers while float are fractions. You can
+                    perform all the above and more mathematical operations on these number types.
+                </p>
+
+                <p>example of addition operations:</p>
+                <code>
+                    #integer
+                    2 + 3 = 5   
+                    
+                    #float
+                    4.4 + 2.5 = 6.9   
+                </code>
+
+                <p>Subtraction:</p>
+                <code>
+                    #integer
+                    5-3 = 2
+
+                    #float
+                    8.6 - 3.4 =5.2
+
+                    #float and integer
+                    6.5 - 4 = 2.5
+                </code>
+                
+                <p>Division:</p>
+                <code>
+                    #integer division
+                    20 / 5 = 4
+
+                    #float and integer division
+                    5.5/5 = 1.1
+                </code>
+
+                <p>Multiplication:</p>
+                <code>
+                    20 * 5 = 100
+                </code>
+
+                <p>Square root: In python. 3<sup>2</sup> is written as one of the below:</p>
+                <code>
+                    #using the 'raise to power' sign
+                    3&#770; 2 = 9
+
+                    #using double asterik sign
+                    3**2 = 9
+                </code>
+
+                <p></p>
+                The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression
+                syntax is straightforward: the operators +, -, * and / work just like in most other languages (for example,
+                Pascal or C); parentheses (()) can be used for grouping. For example: >>> >>> 2 + 2 4 >>> 50 - 5*6 20 >>>
+                (50 - 5*6) / 4 5.0 >>> 8 / 5 # division always returns a floating point number 1.6 The integer numbers (e.g.
+                2, 4, 20) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float. We will see more
+                about numeric types later in the tutorial. Division (/) always returns a float. To do floor division and
+                get an integer result (discarding any fractional result) you can use the // operator; to calculate the remainder
+                you can use %: >>> >>> 17 / 3 # classic division returns a float 5.666666666666667 >>> >>> 17 // 3 # floor
+                division discards the fractional part 5 >>> 17 % 3 # the % operator returns the remainder of the division
+                2 >>> 5 * 3 + 2 # result * divisor + remainder 17 With Python, it is possible to use the ** operator to calculate
+                powers [1]: >>> >>> 5 ** 2 # 5 squared 25 >>> 2 ** 7 # 2 to the power of 7 128 The equal sign (=) is used
+                to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt: >>>
+                >>> width = 20 >>> height = 5 * 9 >>> width * height 900 If a variable is not “defined” (assigned a value),
+                trying to use it will give you an error: >>> >>> n # try to access an undefined variable Traceback (most
+                recent call last): File "
+                <stdin>", line 1, in
+                    <module>
+                        NameError: name 'n' is not defined There is full support for floating point; operators with mixed type operands convert the
+                        integer operand to floating point: >>> >>> 4 * 3.75 - 1 14.0 In interactive mode, the last printed
+                        expression is assigned to the variable _. This means that when you are using Python as a desk calculator,
+                        it is somewhat easier to continue calculations, for example: >>> >>> tax = 12.5 / 100 >>> price =
+                        100.50 >>> price * tax 12.5625 >>> price + _ 113.0625 >>> round(_, 2) 113.06 This variable should
+                        be treated as read-only by the user. Don’t explicitly assign a value to it — you would create an
+                        independent local variable with the same name masking the built-in variable with its magic behavior.
+                        In addition to int and float, Python supports other types of numbers, such as Decimal and Fraction.
+                        Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the
+                        imaginary part (e.g. 3+5j).</p>
             <code></code>
             <p></p>
         </section>
