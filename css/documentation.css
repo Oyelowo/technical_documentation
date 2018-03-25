@@ -14,7 +14,6 @@ body{
 
 #navbar{
     flex-direction: column;
-    border: 1px red solid;
     position: fixed;
     width: 20vw;
     font-size: 80%;
@@ -23,7 +22,6 @@ body{
 
 .nav-link{
     text-decoration: none;
-    color: green;
     padding: 1rem;
     border: 1px black solid;
     word-wrap: break-word;
@@ -46,7 +44,6 @@ body{
 
 #main-doc{
     padding-left: 20.5vw;
-    border: 2px yellow double;
     word-wrap: break-word;
 }
 
@@ -55,7 +52,6 @@ body{
     #slide{
         position: fixed;
         top: 0;
-        border: yellow 1px solid;
         z-index: 3;
         color: white;
         background: #000000;
@@ -66,41 +62,33 @@ body{
     #navbar{
         position: absolute;
         padding-top: 4rem;
-    top: 0;
-    width: 40vw;
-    z-index: 8;
-    background: #111;
-    color: #eaeaea;
-    width: 0;
-    
+        top: 0;
+        width: 40vw;
+        z-index: 8;
+        background: #111;
+        color: #eaeaea;
+        width: 0;
     }    
 
     #navbar > header > h1{
         position: fixed;
-        top: -0.8rem;
-        right: 20vw;
-        font-size: 120%;
-        border: red 1px solid;
+        top: -1rem;
+        left: 20vw;
         padding: 0;
+        font-size: 80%;
     }
 
     .nav-link{
         display: block;
-        background: yellow;
-    }
-
-    #navbar header{
-        font-size: 1rem;
     }
 
     #navbar a{
-    color: #eaeaea;
+        color: #eaeaea;
     }
-
+            
     #cancel-nav{
         display: inline;;
         position: absolute;
-        border: red solid 1px;
         top: 0;
         right: 0;
         font-size: 2rem;
@@ -108,13 +96,10 @@ body{
     }
 
     #main-doc{
-        margin-left: -22vw;
-        margin-top: 3rem;
+        margin-left: -20vw;
+        margin-top: 2.4rem;
         overflow-x: hidden;
-        border: 1px solid red;
         
     }
-
-    
 
 }
