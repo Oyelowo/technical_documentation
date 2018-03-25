@@ -8,16 +8,14 @@ body{
 }
 
 #navbar header{
-    font-size: 220%;
+    font-size: 110%;
     word-wrap: break-word;
 }
 
 #navbar{
-    flex-direction: column;
     position: fixed;
     width: 20vw;
     font-size: 80%;
-    overflow-y: auto;
 }
 
 .nav-link{
