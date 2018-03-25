@@ -27,7 +27,18 @@ body{
     word-wrap: break-word;
     font-size: 100%;
     display: block;
+    color: #000000;
 }
+
+.nav-link:nth-child(even){
+    background: #ddd;
+}
+
+.nav-link:hover{
+    background: #111;
+    color: #fff;
+}
+
 
 #slide-bar, #close-nav{
     display: none;
@@ -60,7 +71,7 @@ body{
 
     #navbar{
         position: fixed;
-        z-index: 8;
+        z-index: 1;
         background: #111;
         color: #eaeaea;
         width: 0;
@@ -92,6 +103,10 @@ body{
     .nav-link{
         display: block;
         color: #eaeaea;
+    }
+
+    .nav-link:nth-child(even){
+        background: #000000;
     }
 
     .nav-link:hover{
