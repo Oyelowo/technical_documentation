@@ -342,8 +342,7 @@
 
         <section id="part_7" class="main-section">
             <header>If Statements</header>
-            <p>This is a conditional statement which is also used similarly to our
-                day-to-day conditional actions.
+            <p>This is a conditional statement which is also used similarly to our day-to-day conditional actions.
             </p>
             <pre>
                 <code>
@@ -357,12 +356,12 @@
                 </code>
             </pre>
 
-        <p>The code above prints the statement because samuel is truly older than lowo. If he is not, 
-            the statement prints nothing.
-        </p>
+            <p>The code above prints the statement because samuel is truly older than lowo. If he is not, the statement prints
+                nothing.
+            </p>
 
-        <p>We can also have multiple conditions, using if elif and else; and , or. For example</p>
-        <pre>
+            <p>We can also have multiple conditions, using if elif and else; and , or. For example</p>
+            <pre>
             <code>
                 temperature = 15
                 month = "June" 
@@ -383,20 +382,16 @@
                 temperature is warn and it is summer
             </code>
         </pre>
-        <p>The above prints temperature is warm and it is summer
-            because that is the statement that fulfils the condition.
-            Temperature which was defined earlier is 15 and season is June, which 
-            follows the third condition, therefore, the statement in the block is printed.
-
-            As you can see from the above, we can also have complex statements in python.
-            However, the cool thing is that the syntax is very simple and self explanatory.
-        </p>
+            <p>The above prints temperature is warm and it is summer because that is the statement that fulfils the condition.
+                Temperature which was defined earlier is 15 and season is June, which follows the third condition, therefore,
+                the statement in the block is printed. As you can see from the above, we can also have complex statements
+                in python. However, the cool thing is that the syntax is very simple and self explanatory.
+            </p>
         </section>
 
         <section id="part_8" class="main-section">
             <header>For statements</header>
-            <p>This is used for iterating through a list. Iteration in a fancy
-                word for saying, go through the list. 
+            <p>This is used for iterating through a list. Iteration in a fancy word for saying, go through the list.
             </p>
             <pre>
                 <code>
@@ -410,8 +405,7 @@
                     7
                 </code>
             </pre>
-            <p>The above prints all the numbers in the list by going through them one by one.
-                List of strings can also be iterated.
+            <p>The above prints all the numbers in the list by going through them one by one. List of strings can also be iterated.
             </p>
 
             <pre>
@@ -437,8 +431,8 @@
                     #result
                     range(2, 5)
                 </code>
-            </pre>
-            #this does not give so much, until you <em>iterate</em> through it.
+            </pre> #this does not give so much, until you
+            <em>iterate</em> through it.
             <pre>
                 <code>
                     for number in range(2,5);
@@ -450,13 +444,16 @@
                     4
                 </code>
             </pre>
-            <p>This gives the numbers within the range. Note that the last number <strong>5</strong>
-            is not include here.</p>
+            <p>This gives the numbers within the range. Note that the last number
+                <strong>5</strong>
+                is not include here.</p>
         </section>
 
         <section id="part_10" class="main-section">
             <header>Break and continue statements</header>
-            <p>break statement, stops an iteration in <em>while</em> or <em>for</em> or 
+            <p>break statement, stops an iteration in
+                <em>while</em> or
+                <em>for</em> or
                 <em>if</em> statements.</p>
             <pre>
                 <code>
@@ -474,34 +471,60 @@
                     5
                 </code>
             </pre>
-                <p>Here, the number stops printing at <strong>5</strong> because we break the loop.
-                loop is another fancy name for iteration. Continute statement works
-            similarly but continues with iteration.</p>
-            
+            <p>Here, the number stops printing at
+                <strong>5</strong> because we break the loop. loop is another fancy name for iteration. Continute statement works
+                similarly but continues with iteration.</p>
+
         </section>
         <section id="part_11" class="main-section">
             <header>Pass</header>
-            <p>The pass statement does not really do anything.
-                It is merely used for syntax purpose when you
-                don't want to do anyting but you don't want the program to break your code by
-                complaining about some errors.</p>
+            <p>The pass statement does not really do anything. It is merely used for syntax purpose when you don't want to do
+                anyting but you don't want the program to break your code by complaining about some errors.</p>
 
-                <pre>
+            <pre>
                     <code>
                         while True:
                             pass
                     </code>
                 </pre>
-                <p>without the pass statement above, our code will be broken. This is especially useful
-                    when writing functions and you don't want to break your code. You will get more familiar
-                    with this with experience. Don't worry, it is very easy to understand.
-                </p>
+            <p>without the pass statement above, our code will be broken. This is especially useful when writing functions and
+                you don't want to break your code. You will get more familiar with this with experience. Don't worry, it
+                is very easy to understand.
+            </p>
         </section>
 
         <section id="part_12" class="main-section">
-            <header>Function</header>
-            <p></p>
-            <code></code>
+            <header>Defining Function</header>
+            <p>Functions are one of the most important aspect of programming generally. It prevents repetition. When you have
+                an operation that you repeat over and over again, it is time to write it as a function. This can easily be
+                used later by parsing the parameters.
+                <strong>Parsing</strong> again, is another fancy name for input.
+            </p>
+            <pre>
+                <code>
+                    def add(a, b):
+                        added_numbers = a + b
+                        return added_numbers
+
+                    #To use the function above
+                    add(a=7, b=12)
+
+                    #result: 
+                    19
+                </code>
+            </pre>
+            <p>In the example above,
+                <strong>a</strong> and
+                <strong>b</strong> are called
+                <strong>parameters</strong>. The
+                <strong>return</strong> statement at the end is also important to make sure that the result is generated when the
+                function is used. The function basically performs a task of adding two numbers togeter. Next time, when we
+                need to repeat this task, we can just
+                <strong>call</strong> our function parse in the parameters and it will generate the result. </p>
+
+            <p>A lot more complex and interesting tasks can be achieved with this. However, this is the general idea behind
+                defining and usin functions.
+            </p>
         </section>
 
         <footer>
