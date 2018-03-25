@@ -93,6 +93,17 @@ h1{
     font-size: 1.1rem;
 }
 
+footer{
+    background: black;
+}
+footer p{
+    color: white;
+}
+
+footer a{
+    color: coral;
+    text-decoration: none;
+}
 /* mobile version */
 @media(max-width: 768px){
     #slide-bar{
