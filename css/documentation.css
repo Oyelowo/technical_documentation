@@ -64,7 +64,7 @@ body{
         background: #111;
         color: #eaeaea;
         width: 0;
-        opacity: 0.9;
+        opacity: 0.95;
         overflow: scroll;
         height: 70%;
         padding-top: 2rem;
@@ -93,7 +93,7 @@ body{
     }
 
     .nav-link:hover{
-        background: #777777;
+        background: rgb(41, 72, 125);
         color: white;
     }
        
