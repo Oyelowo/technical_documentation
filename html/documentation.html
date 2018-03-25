@@ -456,16 +456,50 @@
 
         <section id="part_10" class="main-section">
             <header>Break and continue statements</header>
-            <p></p>
-            <code></code>
+            <p>break statement, stops an iteration in <em>while</em> or <em>for</em> or 
+                <em>if</em> statements.</p>
+            <pre>
+                <code>
+                    for number in range(0, 20):
+                        print(number)
+                        if number == 5:
+                            break
+
+                    #result:
+                    0
+                    1
+                    2
+                    3
+                    4
+                    5
+                </code>
+            </pre>
+                <p>Here, the number stops printing at <strong>5</strong> because we break the loop.
+                loop is another fancy name for iteration. Continute statement works
+            similarly but continues with iteration.</p>
+            
         </section>
         <section id="part_11" class="main-section">
-            <header>part 11</header>
-            <p></p>
-            <code></code>
+            <header>Pass</header>
+            <p>The pass statement does not really do anything.
+                It is merely used for syntax purpose when you
+                don't want to do anyting but you don't want the program to break your code by
+                complaining about some errors.</p>
+
+                <pre>
+                    <code>
+                        while True:
+                            pass
+                    </code>
+                </pre>
+                <p>without the pass statement above, our code will be broken. This is especially useful
+                    when writing functions and you don't want to break your code. You will get more familiar
+                    with this with experience. Don't worry, it is very easy to understand.
+                </p>
         </section>
+
         <section id="part_12" class="main-section">
-            <header>part 12</header>
+            <header>Function</header>
             <p></p>
             <code></code>
         </section>
