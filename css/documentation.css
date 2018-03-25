@@ -79,6 +79,10 @@ body{
         font-size: 140%;
     }
 
+    #navbar h5{
+        padding-left: 1rem;
+    }
+
     .nav-link{
         display: block;
         color: #eaeaea;
