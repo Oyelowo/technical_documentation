@@ -75,6 +75,15 @@ body{
     
     }    
 
+    #navbar > header > h1{
+        position: fixed;
+        top: -0.8rem;
+        right: 20vw;
+        font-size: 120%;
+        border: red 1px solid;
+        padding: 0;
+    }
+
     .nav-link{
         display: block;
         background: yellow;
