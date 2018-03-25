@@ -64,10 +64,11 @@ body{
         background: #111;
         color: #eaeaea;
         width: 0;
-        opacity: 0.9;;
+        opacity: 0.9;
         overflow: scroll;
         height: 70%;
         padding-top: 2rem;
+        transition: 0.4s;
     }    
 
     #navbar > header > h1{
