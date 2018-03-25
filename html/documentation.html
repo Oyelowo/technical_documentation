@@ -64,9 +64,14 @@
                 that it is one of the most used in the world, even by big companies like google. In short, it is simple and
                 very powerful!</p>
             <p> A typical python code looks as simple as below:</p>
-            <code>
-                if 1 &lt; 2: print("1 is less than 2") else: print("1 is not greater than 2")
-            </code>
+                <pre>
+                    <code>
+                        if 1 &lt; 2: 
+                            print("1 is less than 2") 
+                        else: 
+                            print("1 is not greater than 2")
+                    </code>
+                </pre>
             <p>You see? It is as simple as what you know. It gets more detailed but not too complicated.</p>
             <p>Thigns you can do in python include:</p>
 
@@ -97,7 +102,7 @@
             <p> The python interpreter is just like the calculators we use. You can give it some instructions, and it gives the
                 result. It also follows similar operations we use in our normal life.</p>
             In python, we have:
-            <li>integer</li>
+            <li>int(integer)</li>
             <li>float</li>
 
             <p>Integer are basically whole numbers while float are fractions. You can perform all the above and more mathematical
@@ -116,9 +121,18 @@
             </pre>
 
             <p>Subtraction:</p>
-            <code>
-                #integer 5-3 = 2 #float 8.6 - 3.4 =5.2 #float and integer 6.5 - 4 = 2.5
-            </code>
+            <pre>
+                <code>
+                    #integer 
+                    5-3 = 2 
+                    
+                    #float 
+                    8.6 - 3.4 = 5.2 
+                    
+                    #float and integer 
+                    6.5 - 4 = 2.5
+                </code>
+            </pre>
 
             <p>Division:</p>
             <pre>
@@ -175,42 +189,50 @@
             <p>Strings is a fancy word for alphabets. It is used almost the same way we do in real life. In python, strings
                 are surrounded by aprostrphe(e.g "candy"). Strings can also be assigned to an object and printed. See below:
             </p>
-            <code>
-                #assign Oyelowo to name_of_friend = "Oyelowo" print(name_of_friend)
-            </code>
-            Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single
-            quotes ('...') or double quotes ("...") with the same result [2]. \ can be used to escape quotes: >>> >>> 'spam
-            eggs' # single quotes 'spam eggs' >>> 'doesn\'t' # use \' to escape the single quote... "doesn't" >>> "doesn't"
-            # ...or use double quotes instead "doesn't" >>> '"Yes," he said.' '"Yes," he said.' >>> "\"Yes,\" he said." '"Yes,"
-            he said.' >>> '"Isn\'t," she said.' '"Isn\'t," she said.' In the interactive interpreter, the output string is
-            enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different
-            from the input (the enclosing quotes could change), the two strings are equivalent. The string is enclosed in
-            double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single
-            quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing
-            escaped and special characters: >>> >>> '"Isn\'t," she said.' '"Isn\'t," she said.' >>> print('"Isn\'t," she
-            said.') "Isn't," she said. >>> s = 'First line.\nSecond line.' # \n means newline >>> s # without print(), \n
-            is included in the output 'First line.\nSecond line.' >>> print(s) # with print(), \n produces a new line First
-            line. Second line. If you don’t want characters prefaced by \ to be interpreted as special characters, you can
-            use raw strings by adding an r before the first quote: >>> >>> print('C:\some\name') # here \n means newline!
-            C:\some ame >>> print(r'C:\some\name') # note the r before the quote C:\some\name String literals can span multiple
-            lines. One way is using triple-quotes: """...""" or '''...'''. End of lines are automatically included in the
-            string, but it’s possible to prevent this by adding a \ at the end of the line. The following example: print("""\
-            Usage: thingy [OPTIONS] -h Display this usage message -H hostname Hostname to connect to """) produces the following
-            output (note that the initial newline is not included): Usage: thingy [OPTIONS] -h Display this usage message
-            -H hostname Hostname to connect to Strings can be concatenated (glued together) with the + operator, and repeated
-            with *: >>> >>> # 3 times 'un', followed by 'ium' >>> 3 * 'un' + 'ium' 'unununium' Two or more string literals
-            (i.e. the ones enclosed between quotes) next to each other are automatically concatenated. >>> >>> 'Py' 'thon'
-            'Python' This feature is particularly useful when you want to break long strings: >>> >>> text = ('Put several
-            strings within parentheses '
-            <p></p>
-            <li></li>
-            <li></li>
-            <code></code>
-            <p></p>
+            <pre>
+                <code>
+                    #assign Oyelowo to name_of_friend
+                    name_of_friend = "Oyelowo" 
+                    
+                    #print name_of_friend
+                    print(name_of_friend)
+
+                    #this gives the result below: 
+                    Oyelowo
+                </code>
+            </pre>
+
+            <p>Strings can also be combined. This is called concatenation and it is done with
+                the addition sign.
+            </p>
+            <p>Example of concatenation</p>
+
+            <pre>
+                <code>
+                    print("Face" + "book")
+
+                    #the above gives the result below:
+                    Facebook
+                </code>
+            </pre>
+            
+            <p>Strings can also be concatenated with numbers by converting the number to strings.
+                This can be done by using "str" function. Try example below:
+            </p>
+
+            <pre>
+                <code>
+                    #The below convert 66 to string by using enclosing the number in "str" function
+                    print("number" + str(66))
+
+                    #result:
+                    number66
+                </code>
+            </pre>
         </section>
 
         <section id="part_5" class="main-section">
-            <header>part 5</header>
+            <header>Lists</header>
             <p></p>
             <code></code>
             <p></p>
