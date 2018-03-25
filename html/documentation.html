@@ -233,13 +233,81 @@
 
         <section id="part_5" class="main-section">
             <header>Lists</header>
-            <p></p>
-            <code></code>
-            <p></p>
+            <p>Just as the name implies, Lists are used in python to include list of items.
+                They are usually enclosed in brackets(that is: [ ]). Lists can include 
+                floats, integer or strings and each of the elements can be selected
+                by indexing them from 0. I will explain further below:
+            </p>
+            <pre>
+                <code>
+                    #List of numbers ffive numbers
+                    [3, 5, 6, 7, 8]
+
+                    #List of four names names
+                    [Sana, Samuel, Mika, Aleksi]
+                </code>
+            </pre>
+
+            <p>To select Mika, we can index the list. indexing starts counting from 0. In our case, 
+                Sana would be 0 element, Samuel is 1, Mika is 2, Aleksi is 3.
+            </p>
+
+            <pre>
+                <code>
+                    list_of_names = [Sana, Samuel, Mika, Aleksi]
+
+                    #to select Mika, we would select by index as below:
+                    list_of_names[2]
+
+                    #this gives:
+                    Mika
+                </code>
+            </pre>
+            <p>You can also try the above on your computer</p>
+
+            <p>You can also select all the names by:</p>
+            <pre>
+                <code>
+                    #This selects all the elements in a list
+                    list_of_names[:]
+
+                    #result:
+                    Sana, Samuel, Mika, Aleksi
+
+                    #another way of selecting
+                    list_of_names[0:2]
+
+                    #result
+                    Sana, Samuel, Mika
+                </code>
+            </pre>
+
+            <p>You can also combine two ists</p>
+            <pre>
+                <code>
+                    [1,2,3,4] + [5,6,7]
+
+                    #result
+                    [1,2,3,4,5,6,7]
+                </code>
+            </pre>
+
+            <p>mathematical operations can also be performed on every element.</p>
+            <pre>
+                <code>
+                    list = [2, 4, 3]
+
+                    list**2 
+
+                    #result
+                    [4, 16, 9]
+                </code>
+            </pre>
+
         </section>
 
         <section id="part_6" class="main-section">
-            <header>part 6</header>
+            <header>Control Flow Tools</header>
             <p></p>
             <code></code>
             <p></p>
