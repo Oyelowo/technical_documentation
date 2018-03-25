@@ -81,6 +81,7 @@ body{
 
     #navbar h3{
         padding-left: 1rem;
+        background: #444444;
     }
 
     #navbar h3:hover{
@@ -104,6 +105,11 @@ body{
         right: 1rem;
         font-size: 2rem;
         z-index: 34;
+    }
+
+    #close-nav a{
+        color: #fff;
+        text-decoration: none;
     }
 
     #main-doc{
