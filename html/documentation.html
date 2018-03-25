@@ -94,117 +94,114 @@
 
         <section id="part_3" class="main-section">
             <header>Numbers</header>
-            <p> The python interpreter is just like the calculators we use. You can give it 
-                some instructions, and it gives the result.
-                It also follows similar operations we use in our normal life.</p> 
-                In python, we have: 
-                <li>integer</li>
-                <li>float</li>
+            <p> The python interpreter is just like the calculators we use. You can give it some instructions, and it gives the
+                result. It also follows similar operations we use in our normal life.</p>
+            In python, we have:
+            <li>integer</li>
+            <li>float</li>
 
-                <p>Integer are basically whole numbers while float are fractions. You can
-                    perform all the above and more mathematical operations on these number types.
-                    '#' sign is used for commenting.
-                </p>
+            <p>Integer are basically whole numbers while float are fractions. You can perform all the above and more mathematical
+                operations on these number types. '#' sign is used for commenting.
+            </p>
 
-                <p>example of addition operations:</p>
+            <p>example of addition operations:</p>
+            <pre>
                 <code>
-                    #integer
-                    2 + 3 = 5   
+                    #integer 
+                    2 + 3 = 5 
                     
-                    #float
-                    4.4 + 2.5 = 6.9   
+                    #float 
+                    4.4 + 2.5 = 6.9
                 </code>
+            </pre>
 
-                <p>Subtraction:</p>
+            <p>Subtraction:</p>
+            <code>
+                #integer 5-3 = 2 #float 8.6 - 3.4 =5.2 #float and integer 6.5 - 4 = 2.5
+            </code>
+
+            <p>Division:</p>
+            <pre>
                 <code>
-                    #integer
-                    5-3 = 2
+                    #integer division 
+                    20 / 5 = 4 
 
-                    #float
-                    8.6 - 3.4 =5.2
-
-                    #float and integer
-                    6.5 - 4 = 2.5
-                </code>
-                
-                <p>Division:</p>
-                <code>
-                    #integer division
-                    20 / 5 = 4
-
-                    #float and integer division
+                    #float and integer division 
                     5.5/5 = 1.1
                 </code>
+            </pre>
 
-                <p>Multiplication:</p>
+            <p>Multiplication:</p>
+            <code>
+                20 * 5 = 100
+            </code>
+
+            <p>Square root: In python. 3
+                <sup>2</sup> is written as one of the below:</p>
+            <pre>
                 <code>
-                    20 * 5 = 100
-                </code>
-
-                <p>Square root: In python. 3<sup>2</sup> is written as one of the below:</p>
-                <code>
-                    #using the 'raise to power' sign
-                    3&#770; 2 = 9
-
-                    #using double asterik sign
+                    #using the 'raise to power' sign 
+                    3&#770; 2 = 9 
+                    #using double asterik sign 
                     3**2 = 9
                 </code>
+            </pre>
 
-                <p>Lastly, modulo gives the remainder of a number. This is especially useful when
-                    we want to know if a number is even or odd. An example is shown below where it can be
-                    seen that 10 is even number because when it is divided by 2, it remains 0:
-                </p>
+            <p>Lastly, modulo gives the remainder of a number. This is especially useful when we want to know if a number is
+                even or odd. An example is shown below where it can be seen that 10 is even number because when it is divided
+                by 2, it remains 0:
+            </p>
+            <pre>
                 <code>
-                    #Here the remainder of the the division is zero
+                    #Here the remainder of the the division is zero 
                     10 // 2 = 0
+                 
                 </code>
+            </pre>
 
-                <p>numbers can also be put into an object and used later. For example:</p>
-                <code>
-                    age_of_father = 27
-                    age_of_mother = 25
-                    age_of_child = 3
-
-                    age_of_family = age_of_father + age_of_mother + age_of_child
-                    age_of_family = 55
-                </code>
-                
-                <p></p>
-                The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression
-                syntax is straightforward: the operators +, -, * and / work just like in most other languages (for example,
-                Pascal or C); parentheses (()) can be used for grouping. For example: >>> >>> 2 + 2 4 >>> 50 - 5*6 20 >>>
-                (50 - 5*6) / 4 5.0 >>> 8 / 5 # division always returns a floating point number 1.6 The integer numbers (e.g.
-                2, 4, 20) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float. We will see more
-                about numeric types later in the tutorial. Division (/) always returns a float. To do floor division and
-                get an integer result (discarding any fractional result) you can use the // operator; to calculate the remainder
-                you can use %: >>> >>> 17 / 3 # classic division returns a float 5.666666666666667 >>> >>> 17 // 3 # floor
-                division discards the fractional part 5 >>> 17 % 3 # the % operator returns the remainder of the division
-                2 >>> 5 * 3 + 2 # result * divisor + remainder 17 With Python, it is possible to use the ** operator to calculate
-                powers [1]: >>> >>> 5 ** 2 # 5 squared 25 >>> 2 ** 7 # 2 to the power of 7 128 The equal sign (=) is used
-                to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt: >>>
-                >>> width = 20 >>> height = 5 * 9 >>> width * height 900 If a variable is not “defined” (assigned a value),
-                trying to use it will give you an error: >>> >>> n # try to access an undefined variable Traceback (most
-                recent call last): File "
-                <stdin>", line 1, in
-                    <module>
-                        NameError: name 'n' is not defined There is full support for floating point; operators with mixed type operands convert the
-                        integer operand to floating point: >>> >>> 4 * 3.75 - 1 14.0 In interactive mode, the last printed
-                        expression is assigned to the variable _. This means that when you are using Python as a desk calculator,
-                        it is somewhat easier to continue calculations, for example: >>> >>> tax = 12.5 / 100 >>> price =
-                        100.50 >>> price * tax 12.5625 >>> price + _ 113.0625 >>> round(_, 2) 113.06 This variable should
-                        be treated as read-only by the user. Don’t explicitly assign a value to it — you would create an
-                        independent local variable with the same name masking the built-in variable with its magic behavior.
-                        In addition to int and float, Python supports other types of numbers, such as Decimal and Fraction.
-                        Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the
-                        imaginary part (e.g. 3+5j).</p>
-            <code></code>
-            <p></p>
+            <p>numbers can also be put into an object and used later. For example, below, age_of_father, age_of_mother and age_of_child
+                are objects that can be used later</p>
+            <pre>
+            <code>
+                age_of_father = 27 age_of_mother = 25 age_of_child = 3
+                age_of_family = age_of_father + age_of_mother + age_of_child 
+                age_of_family = 55
+            </code>
+             </pre>
         </section>
 
         <section id="part_4" class="main-section">
-            <header>part 4</header>
-            <p></p>
-            <code></code>
+            <header>STRINGS</header>
+            <p>Strings is a fancy word for alphabets. It is used almost the same way we do in real life. In python, strings
+                are surrounded by aprostrphe(e.g "candy"). Strings can also be assigned to an object and printed. See below:
+            </p>
+            <code>
+                #assign Oyelowo to name_of_friend = "Oyelowo" print(name_of_friend)
+            </code>
+            Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single
+            quotes ('...') or double quotes ("...") with the same result [2]. \ can be used to escape quotes: >>> >>> 'spam
+            eggs' # single quotes 'spam eggs' >>> 'doesn\'t' # use \' to escape the single quote... "doesn't" >>> "doesn't"
+            # ...or use double quotes instead "doesn't" >>> '"Yes," he said.' '"Yes," he said.' >>> "\"Yes,\" he said." '"Yes,"
+            he said.' >>> '"Isn\'t," she said.' '"Isn\'t," she said.' In the interactive interpreter, the output string is
+            enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different
+            from the input (the enclosing quotes could change), the two strings are equivalent. The string is enclosed in
+            double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single
+            quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing
+            escaped and special characters: >>> >>> '"Isn\'t," she said.' '"Isn\'t," she said.' >>> print('"Isn\'t," she
+            said.') "Isn't," she said. >>> s = 'First line.\nSecond line.' # \n means newline >>> s # without print(), \n
+            is included in the output 'First line.\nSecond line.' >>> print(s) # with print(), \n produces a new line First
+            line. Second line. If you don’t want characters prefaced by \ to be interpreted as special characters, you can
+            use raw strings by adding an r before the first quote: >>> >>> print('C:\some\name') # here \n means newline!
+            C:\some ame >>> print(r'C:\some\name') # note the r before the quote C:\some\name String literals can span multiple
+            lines. One way is using triple-quotes: """...""" or '''...'''. End of lines are automatically included in the
+            string, but it’s possible to prevent this by adding a \ at the end of the line. The following example: print("""\
+            Usage: thingy [OPTIONS] -h Display this usage message -H hostname Hostname to connect to """) produces the following
+            output (note that the initial newline is not included): Usage: thingy [OPTIONS] -h Display this usage message
+            -H hostname Hostname to connect to Strings can be concatenated (glued together) with the + operator, and repeated
+            with *: >>> >>> # 3 times 'un', followed by 'ium' >>> 3 * 'un' + 'ium' 'unununium' Two or more string literals
+            (i.e. the ones enclosed between quotes) next to each other are automatically concatenated. >>> >>> 'Py' 'thon'
+            'Python' This feature is particularly useful when you want to break long strings: >>> >>> text = ('Put several
+            strings within parentheses '
             <p></p>
             <li></li>
             <li></li>
