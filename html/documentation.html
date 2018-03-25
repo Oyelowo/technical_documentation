@@ -93,7 +93,7 @@
                 <li>Subtraction(-)</li>
                 <li>Division(/)</li>
                 <li>Multiplication(*)</li>
-                <li>Modulo or Remainder(//)</li>
+                <li>Modulo or Remainder(%)</li>
             </ul>
         </section>
 
@@ -168,7 +168,7 @@
             <pre>
                 <code>
                     #Here the remainder of the the division is zero 
-                    10 // 2 = 0
+                    10 % 2 = 0
                  
                 </code>
             </pre>
@@ -387,24 +387,75 @@
             because that is the statement that fulfils the condition.
             Temperature which was defined earlier is 15 and season is June, which 
             follows the third condition, therefore, the statement in the block is printed.
-            
+
             As you can see from the above, we can also have complex statements in python.
             However, the cool thing is that the syntax is very simple and self explanatory.
         </p>
         </section>
 
         <section id="part_8" class="main-section">
-            <header>part 8</header>
-            <p></p>
-            <code></code>
+            <header>For statements</header>
+            <p>This is used for iterating through a list. Iteration in a fancy
+                word for saying, go through the list. 
+            </p>
+            <pre>
+                <code>
+                    for number in [3, 4, 6, 7]:
+                        print(number)
+
+                    #result:
+                    3
+                    4
+                    6
+                    7
+                </code>
+            </pre>
+            <p>The above prints all the numbers in the list by going through them one by one.
+                List of strings can also be iterated.
+            </p>
+
+            <pre>
+                <code>
+                    for name in [mika, Aleksi, lowo, Maria]:
+                        print(name)
+
+                    #result
+                    Mika
+                    Aleksi
+                    lowo
+                    Maria
+                </code>
+            </pre>
         </section>
         <section id="part_9" class="main-section">
-            <header>part 9</header>
-            <p></p>
-            <code></code>
+            <header>The range() function</header>
+            <p>Just as the name signifies, it gives the range between two numbers</p>
+            <pre>
+                <code>
+                    range(2, 5)
+
+                    #result
+                    range(2, 5)
+                </code>
+            </pre>
+            #this does not give so much, until you <em>iterate</em> through it.
+            <pre>
+                <code>
+                    for number in range(2,5);
+                        print(number)
+
+                    #result: 
+                    2
+                    3
+                    4
+                </code>
+            </pre>
+            <p>This gives the numbers within the range. Note that the last number <strong>5</strong>
+            is not include here.</p>
         </section>
+
         <section id="part_10" class="main-section">
-            <header>part 10</header>
+            <header>Break and continue statements</header>
             <p></p>
             <code></code>
         </section>
