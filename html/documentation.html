@@ -173,11 +173,11 @@
             <p>numbers can also be put into an object and used later. For example, below, age_of_father, age_of_mother and age_of_child
                 are objects that can be used later</p>
             <pre>
-            <code>
-                age_of_father = 27 age_of_mother = 25 age_of_child = 3
-                age_of_family = age_of_father + age_of_mother + age_of_child 
-                age_of_family = 55
-            </code>
+                <code>
+                    age_of_father = 27 age_of_mother = 25 age_of_child = 3
+                    age_of_family = age_of_father + age_of_mother + age_of_child 
+                    age_of_family = 55
+                </code>
              </pre>
         </section>
 
@@ -217,13 +217,13 @@
             </p>
             <p>The below convert 66 to string by using enclosing the number in "str" function</p>
             <pre>
-    <code>
-        print("number" + str(66))
+                <code>
+                    print("number" + str(66))
 
-        #result:
-        number66
-    </code>
-</pre>
+                    #result:
+                    number66
+                </code>
+            </pre>
         </section>
 
         <section id="Lists" class="main-section">
@@ -357,27 +357,29 @@
             </p>
 
             <p>We can also have multiple conditions, using if elif and else; and , or. For example</p>
-            <pre>
-            <code>
-                temperature = 15
-                month = "June" 
+            
+                <pre>
+                <code>
+                    temperature = 15
+                    month = "June" 
 
-                if temperature &lt; 0:
-                    print("temperature is freezing")
+                    if temperature &lt; 0:
+                        print("temperature is freezing")
 
-                elif temperature &gt; 0 or temperature &lt; 10:
-                    print("temperature is cool")
+                    elif temperature &gt; 0 or temperature &lt; 10:
+                        print("temperature is cool")
 
-                elif temperature &gt; 10 and month is "may" or month is "June":
-                    print("temperature is warm and it is summer")
-                    
-                else: 
-                    print("It is fall")
+                    elif temperature &gt; 10 and month is "may" or month is "June":
+                        print("temperature is warm and it is summer")
+                        
+                    else: 
+                        print("It is fall")
 
-                #result
-                temperature is warn and it is summer
-            </code>
-        </pre>
+                    #result
+                    temperature is warn and it is summer
+                </code>
+                </pre>
+    
             <p>The above prints temperature is warm and it is summer because that is the statement that fulfils the condition.
                 Temperature which was defined earlier is 15 and season is June, which follows the third condition, therefore,
                 the statement in the block is printed. As you can see from the above, we can also have complex statements
@@ -427,8 +429,9 @@
                     #result
                     range(2, 5)
                 </code>
-            </pre> #this does not give so much, until you
-            <em>iterate</em> through it.
+            </pre> 
+            <p> this does not give so much, until you
+            <em>iterate</em> through it.</p>
             <pre>
                 <code>
                     for number in range(2,5);
@@ -478,11 +481,11 @@
                 anyting but you don't want the program to break your code by complaining about some errors.</p>
 
             <pre>
-                    <code>
-                        while True:
-                            pass
-                    </code>
-                </pre>
+                <code>
+                    while True:
+                        pass
+                </code>
+            </pre>
             <p>without the pass statement above, our code will be broken. This is especially useful when writing functions and
                 you don't want to break your code. You will get more familiar with this with experience. Don't worry, it
                 is very easy to understand.
